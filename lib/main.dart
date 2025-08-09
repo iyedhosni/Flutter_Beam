@@ -45,7 +45,6 @@ void callbackDispatcher() {
                 bigPicture: 'https://weult.com/beam/favicon.ico',
                 notificationLayout: NotificationLayout.BigPicture,
                 wakeUpScreen: true,
-                criticalAlert: true,
                 category: NotificationCategory.Message,
               ),
             );
@@ -85,6 +84,7 @@ void main() async {
         enableVibration: true,
       )
     ],
+    debug: false,
   );
   
   // Initialize background monitoring
